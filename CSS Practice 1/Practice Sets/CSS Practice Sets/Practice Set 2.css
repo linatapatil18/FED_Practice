@@ -1,0 +1,15 @@
+#bar {
+    color: rgba(241, 4, 4, 0.5);
+    background-color: pink;
+}
+main {
+    background-color: burlywood;
+    height: 500px;
+    
+}
+#product {
+    height: 400px;
+    width: 400px;
+    background: rgb(118, 179, 118) url(/Images/clothes.png) no-repeat local center;
+}
+

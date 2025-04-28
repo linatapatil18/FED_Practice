@@ -1,0 +1,13 @@
+.check {
+    height: 100px;
+    width: 100px;
+}
+
+#first {
+    background-color: powderblue;
+    visibility: hidden;
+}
+#second {
+    background-color: palevioletred;
+    visibility: visible;
+}

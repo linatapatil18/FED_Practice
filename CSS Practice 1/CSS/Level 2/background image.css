@@ -1,0 +1,8 @@
+#back {
+    height: 50px;
+    width: 50px;
+    background-image: url(/Images/myntra_logo.png);
+    background-size: contain;
+    background-repeat: repeat-y;
+    background-position: center;
+}

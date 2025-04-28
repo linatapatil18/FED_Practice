@@ -1,0 +1,13 @@
+#transperancy {
+    color: rgba(98, 28, 163, 1);
+    
+}
+#transperancy-2 {
+    color: rgba(98, 28, 163, 0.75);
+}
+#transperancy-3 {
+    color: rgba(98, 28, 163, 0.50);
+}
+#transperancy-4 {
+    color: rgba(98, 28, 163, 0.25);
+}

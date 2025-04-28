@@ -1,0 +1,30 @@
+#practice {
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    background-color: darkgrey;
+}
+button {
+    margin: 100px;
+    padding: 10px 15px;
+    height: 70px;
+    width: 70px;
+    border: 3px dotted red;
+    border-radius: 35px;
+}
+.box {
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+    text-align: center;
+    margin: 5px;
+    border: 3px solid;
+}
+#one {
+    background-color: cornflowerblue;
+    box-sizing: content-box;
+}
+#two {
+    background-color: burlywood;
+    box-sizing: border-box;
+}

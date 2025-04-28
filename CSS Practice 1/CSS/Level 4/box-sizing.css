@@ -1,0 +1,20 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.box {
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    border: 3px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+#first {
+    background-color: rgb(131, 131, 235);
+    box-sizing: border-box;
+}
+#second {
+    background-color: crimson;
+    box-sizing: content-box;
+}

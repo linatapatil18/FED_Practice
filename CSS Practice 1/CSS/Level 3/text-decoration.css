@@ -1,0 +1,18 @@
+#dec1 {
+    background-color: yellow;
+    text-align: center;
+    text-decoration: underline;
+}
+#dec2 {
+    background-color: yellowgreen;
+    text-align: center;
+    text-decoration: line-through;
+}
+#dec3 {
+    background-color: greenyellow;
+    text-align: center;
+    text-decoration: overline;
+}
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,9 @@
+/* single value can give which will apply on all sides of element. */
+
+#marg {
+    background-color: cornflowerblue;
+    height: 80px;
+    width: 80px;
+    padding: 10px;
+    margin: 10px;
+}

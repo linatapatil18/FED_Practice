@@ -1,0 +1,13 @@
+#one {
+    text-transform: capitalize;
+}
+#two {
+    text-transform: lowercase;
+}
+#three {
+    text-transform: uppercase;
+}
+#four {
+    /* text-transform: none; is a default value. */
+    text-transform: none;
+}

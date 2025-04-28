@@ -1,0 +1,9 @@
+#border {
+    height: 120px;
+    width: 120px;
+    background-color: rgb(131, 131, 252);
+    text-align: center;
+    padding: 5px;
+    /* it's a shorthand property of boreder */
+    border: 3px solid blue;
+}

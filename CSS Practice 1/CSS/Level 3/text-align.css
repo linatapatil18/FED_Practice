@@ -1,0 +1,18 @@
+
+.box {
+    height: 200px;
+    width: 200px;
+}
+#box1 {
+    background-color: cadetblue;
+    /* text-align: left; is a default value. */
+    text-align: left;
+}
+#box2 {
+    background-color: cornflowerblue;
+    text-align: center;
+}
+#box3 {
+    background-color: darkseagreen;
+    text-align: right;
+}

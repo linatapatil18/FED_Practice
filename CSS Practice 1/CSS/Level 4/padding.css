@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#padded {
+    background-color: rgb(112, 190, 201);
+    height: 50px;
+    width: 50px;
+    padding: 5px 10px 15px 19px;
+}
+#check {
+    background-color: darkgrey;
+    height: 100px;
+    width: 100px;
+    /* single value of padding will napply all sides of element. */
+    padding: 10px;
+}

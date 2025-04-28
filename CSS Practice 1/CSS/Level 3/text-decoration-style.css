@@ -1,0 +1,30 @@
+#style1 {
+    background-color: yellow;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+}
+#style2 {
+    background-color: yellowgreen;
+    text-align: center;
+    text-decoration: line-through;
+    text-decoration-style: double;
+}
+#style3 {
+    background-color: greenyellow;
+    text-align: center;
+    text-decoration: overline;
+    text-decoration-style: dotted;
+}
+#style4 {
+    background-color: greenyellow;
+    text-align: center;
+    text-decoration: overline;
+    text-decoration-style: wavy;
+}
+#style5 {
+    background-color: greenyellow;
+    text-align: center;
+    text-decoration: overline;
+    text-decoration-style: solid;
+}

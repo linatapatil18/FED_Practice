@@ -1,0 +1,19 @@
+/* all sizes we can give different  of border-radius */
+
+#rad {
+    background-color: palegreen;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    border: 3px solid green;
+    border-radius: 55px;
+}
+#check {
+    background-color: rgb(132, 214, 214);
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    margin: 5px;
+    border: 3px solid rgb(95, 95, 197);
+    border-radius: 10px;
+}

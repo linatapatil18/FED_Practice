@@ -1,0 +1,8 @@
+/* font-weight ranges from 100 to 900. */
+
+#one {
+    font-weight: 100;
+}
+#two {
+    font-weight: 900;
+}

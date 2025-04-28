@@ -1,0 +1,23 @@
+h1 {
+    color: cornflowerblue;
+}
+
+#heading {
+    color: red;
+}
+
+/* This is my practice comment.*/
+
+#practice {
+    color: cadetblue;
+}
+p {
+    color: green;
+}
+.random_heading {
+    color: blue;
+}
+
+#first, #second {
+    color: chocolate;
+}
