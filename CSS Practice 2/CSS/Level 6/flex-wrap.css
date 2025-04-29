@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.box {
+    height: 150px;
+    width: 150px;
+    border: 3px solid;
+    margin: 5px;
+    text-align: center;
+    background-color: darkorange;
+}
+h1 {
+    text-align: center;
+}
+#container {
+    background-color: greenyellow;
+    height: 600px;
+    width: 600px;
+    padding: 10px;
+    margin: 20px;
+    border: 3px solid;
+
+    display: flex;
+    /* values of flex-wrap are nowrap, wrap, wrap-reverse */
+    flex-wrap: wrap-reverse;
+}

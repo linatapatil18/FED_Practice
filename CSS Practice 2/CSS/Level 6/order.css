@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.box {
+    height: 75px;
+    width: 75px;
+    border: 3px solid;
+    margin: 5px;
+    text-align: center;   
+}
+
+#container {
+    background-color: greenyellow;
+    height: 300px;
+    width: 600px;
+    padding: 10px;
+    margin: 20px;
+    border: 3px solid;
+
+    display: flex;
+    justify-content: center;    
+}
+#box1 {
+    background-color: red;
+    order: 3;
+}
+#box2 {
+    background-color: darkorange;
+    order: 1;
+}
+#box3 {
+    background-color: blueviolet;
+    order: 4;
+}
+#box4 {
+    background-color: forestgreen;
+    order: 2;
+}
+

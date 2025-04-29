@@ -1,0 +1,39 @@
+#one {
+    height: 100px;
+    width: 100px;
+    background-color: lightseagreen;
+}
+/* generally, media queries are apply on height property */
+@media screen and (width: 300px) {
+    #one {
+        background-color: blueviolet;
+        border: 3px solid;
+    }
+}
+
+#two {
+    margin: 30px;
+    height: 100px;
+    width: 100px;
+    background-color: coral;
+}
+/* we can define max-width also. */
+@media screen and (min-width: 300px) {
+    #two {
+        border: 3px solid;
+        border-radius: 50%;
+        background-color: darkgrey;
+    }
+}
+#three {
+    height: 100px;
+    width: 100px;
+    background-color: dodgerblue;
+}
+@media screen and (min-width: 300px) and (max-width: 500px) {
+    #three {
+        border: 3px solid blue;
+        height: 300px;
+    }
+}
+

@@ -1,0 +1,17 @@
+#btn {
+    height: 25px;
+    width: 150px;
+    background-color: cornflowerblue;
+    border: 2px solid;
+    border-radius: 10px;
+}
+#btn:hover {
+    width: 160px;
+    height: 30px;
+    background-color: crimson;
+}
+#btn:active {
+    width: 160px;
+    height: 30px;
+    background-color: blueviolet;
+}

@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#first {
+    background-color: cornflowerblue;
+    width: 200px;
+    height: 100px;
+}
+#second {
+    background-color: rosybrown;
+    width: 50%;
+    height: 60%;
+}

@@ -1,0 +1,26 @@
+.container {
+    position: relative;
+}
+
+.box {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border: 3px solid;
+    
+    text-align: center;
+    
+    font-size: 25px;
+}
+#box1 {
+    background-color: blueviolet;
+    left: 20px;
+    top: 60px;
+    z-index: 2;
+}
+#box2 {
+    background-color: darkcyan;
+    left: 60px;
+    top: 20px;
+    z-index: 1;
+}

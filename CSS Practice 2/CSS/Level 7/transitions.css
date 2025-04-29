@@ -1,0 +1,44 @@
+#btn {
+    height: 25px;
+    width: 150px;
+    background-color: dodgerblue;
+    border: 3px solid black;
+    border-radius: 10px;
+
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: steps;
+    transition-delay: 1s;
+}
+#btn:hover {
+    height: 30px;
+    width: 160px;
+    background-color: blueviolet;
+}
+#btn:active {
+    height: 30px;
+    width: 160px;
+    background-color: gray;
+}
+
+
+
+#btn2 {
+    height: 25px;
+    width: 150px;
+    background-color: dodgerblue;
+    border: 3px solid black;
+    border-radius: 10px;
+    /* shorthand property used. */
+    transition: all 1s ease-in-out 1s;
+}
+#btn2:hover {
+    height: 30px;
+    width: 160px;
+    background-color: blueviolet;
+}
+#btn2:active {
+    height: 30px;
+    width: 160px;
+    background-color: gray;
+}

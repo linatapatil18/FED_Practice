@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.boxes {
+    background-color: rgb(188, 142, 231);
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    border: 3px solid rgb(132, 6, 250);
+    height: 100px;
+    width: 100px;
+    display: block;
+}
+.box {
+    background-color: rgb(126, 126, 231);
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    height: 100px;
+    width: 100px;
+    border: 3px solid blue;
+    /* we cant set height & width with display: inline; */
+    display: inline;
+}
+.check {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(247, 179, 247);
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    border: 3px solid magenta;
+    display: inline-block;
+}
+.pr {
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    padding: 5px;
+    background-color: darkseagreen;
+    border: 3px solid green ;
+    text-align: center;
+}
+#pr1 {
+    display: none;
+}

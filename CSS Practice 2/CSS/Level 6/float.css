@@ -1,0 +1,16 @@
+#container {
+    height: 200px;
+    width: 500px;
+    background-color: rgb(180, 243, 245);
+    border: 3px solid rgb(51, 115, 117);
+}
+.box {
+    height: 150px;
+    width: 150px;
+    background-color: darkseagreen;
+    margin: 5px;
+    border: 3px solid;
+    /* we can give different float values like right, left & none (none is a default value) */
+    float: right;
+    text-align: center;
+}

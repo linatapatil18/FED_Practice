@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+}
+#first {
+    background-color: darksalmon;
+    height: 100px;
+    width: 200px;
+    font-size: 10px;
+}
+#second {
+    background-color: darkseagreen;
+    height: 60%;
+    width: 50%;
+    font-size: 0.5rem;
+}
