@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <button class="my-button">Click me!</button>
+    <div class="my-div">This is the div</div>
+    
+    <script> 
+        // some DOM Properties 
+        console.log(document.location);
+        console.log(document.title);
+        console.log(document.title = 'DOM in JS');
+        console.log(document.domain);
+        console.log(document.querySelector('button').classList);
+        console.log(document.querySelector('button').classList.add('your-button'));
+        
+        // some DOM methods
+        let button = document.createElement('Button');
+        button.innerText = 'Click me!';
+        document.querySelector('.my-div').appendChild(button);
+        // document.querySelector('.my-div').removeChild(button); --> for removind appendChild
+    </script>
+</body>
+</html>

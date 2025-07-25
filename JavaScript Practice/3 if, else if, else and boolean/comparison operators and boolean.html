@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparison operators and Boolean values in JS</title>
+</head>
+<body>
+    
+    <script>
+        // TYPE CHECKING:
+        console.log(typeof (5 < 8)); 
+        console.log(typeof true);
+        console.log(typeof 'true');
+
+        // COMPARISON OPERATORS:
+        // Greater than & Less than
+        console.log(5 > 8);
+        console.log(5 < 8);
+        
+        // greater than or equal to, less than or equal to
+        console.log(6 >= 8);
+        console.log(6 <= 8);
+
+        // equality and non-equality
+        // There are two types of equality and non-equality in JS
+        console.log(5 == '5');
+        console.log(5 === '5'); // In this type of equality for 'true' output value and type both should be equal
+        
+        console.log(5 != '5');
+        console.log(5 !== '5'); // this and above '===' operators will do not perform explicit operations
+
+        // Order of comparison operators is less than arithmetic operators
+        console.log(5 + 5 === 6 + 4);
+    </script>
+</body>
+</html>

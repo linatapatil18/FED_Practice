@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Updating values and shorthand</title>
+</head>
+<body>
+    
+    <script>
+        let a = 5;
+        let b = 6;
+        let c = a + 4;
+        console.log(c);
+        c = b + 2;
+        console.log(c);
+ 
+        // shorthand way
+        let i = 5;
+        console.log(i);      // 5
+        console.log(i += 5); // 10
+        console.log(i -= 5); // 5
+        console.log(i *= 2); // 10
+        console.log(i /= 2); // 5
+
+        // other way to create variable
+        const pi = 3.14159265359; // using const we cannot change value 
+        let radius = 4;
+        console.log(pi * radius * radius);
+    </script>
+</body>
+</html>
