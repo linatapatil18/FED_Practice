@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basics of HTML & JS</title>
+</head>
+<body>
+    <h1>KG Coding</h1>
+    <h1>KG Coding 2</h1>
+    <!--How ro make interactive button?-->
+    <button id="click-me" onclick="alert('I am clicked!')">Click me!</button>
+    <br><br>
+    <button class="my-button">Push me!</button>
+    <button class="my-button">Push me 2!</button>
+    <hr>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam minus ducimus sunt doloremque debitis laudantium omnis blanditiis. Vero, in minima!</p>
+    <a href="https://www.google.com" target="_blank">Google</a>
+
+    <script>
+        alert('Welcome to first chapter of JS Practice');
+
+        // getElementById & getElementsByClassName
+        console.log(document.getElementById('click-me')); // For finding element with the help of id
+        console.log(document.getElementsByClassName('my-button')); // For finding elements with the help of class
+
+        // querySelector --> For finding elements with the help of any type of selector which is shown in below: 
+        console.log(document.querySelector('h1')); // element selector
+        console.log(document.querySelectorAll('h1')); // for finding all elements using element selector
+        console.log(document.querySelector('#click-me')); // id selector
+        console.log(document.querySelector('.my-button')); // class selector
+        console.log(document.querySelectorAll('.my-button')); // for finding all elements using class selector
+        
+        // Mathematical calculations
+        console.log(2 + 2);
+        console.log(10/5);
+        console.log(10/5*6-8+3);
+        
+        // Concatination
+        console.log('Student Name:' + ' Linata');
+        console.log('My age is:' + 22);
+
+        // warning, error & clear
+        console.warn('This is a warning');
+        console.error('This is an error');
+        // console.clear(); --> for clearing to console
+    </script>
+</body>
+</html>

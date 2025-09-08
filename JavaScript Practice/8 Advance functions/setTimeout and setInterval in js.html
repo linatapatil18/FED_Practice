@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>setTimeout & setInterval in JS</title>
+</head>
+
+<body>
+
+    <script>
+        // setTimeout with function & time
+        let alarm = () => console.log('Good Morning!');
+        let timerId = setTimeout(alarm, 4000);
+        console.log(`Hii! with timer ID: ${timerId}`);
+
+        // clearTimeout
+        clearTimeout(timerId);
+
+        // setInterval 
+        let intervalId = setInterval(alarm, 1000);
+        setTimeout(() => clearInterval(intervalId), 5000);
+    </script>
+</body>
+
+</html>
