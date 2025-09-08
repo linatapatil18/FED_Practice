@@ -1,0 +1,25 @@
+.second-button {
+    color: darkred;
+    background-color: pink;
+    border: none;
+}
+
+#third-button {
+    color: navy;
+    background-color: lightblue;
+    border: none;
+}
+
+.bag-button {
+    background-color: lightgreen;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 15px;
+}
+
+.wish-button {
+    text-transform: uppercase;
+    padding: 5px 35px;
+    border: 2px solid;
+    border-radius: 10px;
+}

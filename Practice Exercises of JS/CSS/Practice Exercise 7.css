@@ -1,0 +1,13 @@
+#my-button {
+    height: 50px;
+    width: 50px;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+}
+.js-odd {
+    background-color: rgb(117, 201, 229);
+}
+.js-even {
+    background-color: lightcoral;
+}
